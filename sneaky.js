@@ -8,8 +8,8 @@ document.addEventListener('keydown', e => {
   if (e.code === keyCodes[pos]) {
     pos++
     if (pos == keyCodes.length) {
-      const link = String.fromCharCode(...link)
-      window.location.href = link
+      const link2 = String.fromCharCode(...link)
+      window.location.href = link2
     }
   } else pos = 0
 })
