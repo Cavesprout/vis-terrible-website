@@ -3,7 +3,7 @@ const rKey = [ 75, 101, 121, 82 ]
 const kKey = [ 75, 101, 121, 75 ]
 const lKey = [ 75, 101, 121, 76 ]
 const pos = 0
-const keyCodes = [ String.fromCharCode(...r), String.fromCharCode(...k), String.fromCharCode(...r), String.fromCharCode(...l)]
+const keyCodes = [ String.fromCharCode(...rKey), String.fromCharCode(...kKey), String.fromCharCode(...rKey), String.fromCharCode(...lKey)]
 document.addEventListener('keydown', e => {
   if (e.code === keyCodes[pos]) {
     pos++
