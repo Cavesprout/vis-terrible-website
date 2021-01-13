@@ -2,7 +2,7 @@ const link = [104, 116, 116, 112, 115, 58, 47, 47, 119, 119, 119, 46, 121, 111, 
 const rKey = [ 75, 101, 121, 82 ]
 const kKey = [ 75, 101, 121, 75 ]
 const lKey = [ 75, 101, 121, 76 ]
-const pos = 0
+let pos = 0
 const keyCodes = [ String.fromCharCode(...rKey), String.fromCharCode(...kKey), String.fromCharCode(...rKey), String.fromCharCode(...lKey)]
 document.addEventListener('keydown', e => {
   if (e.code === keyCodes[pos]) {
