@@ -3,12 +3,3 @@ body {
     color: forestgreen;
     text-align: center;
 }
-
-h1.head {
-    font-size: 2rem;
-}
-
-h2.subhead {
-    font-size: 1.5rem;
-    line-height: 0.5rem;
-}
